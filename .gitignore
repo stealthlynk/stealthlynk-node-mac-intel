@@ -1,0 +1,274 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.snap
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Logs
+logs
+*.log
+
+# Runtime configuration files
+config.json
+server-config.json
+initial-config.json
+xray-config.json
+frpc.json
+clients.json
+vless-config.json
+uuidClients.json
+
+# ========================================
+# CRITICAL: COMPLETE VPN SECURITY PROTECTION
+# ========================================
+
+# ENTIRE SENSITIVE DIRECTORIES (NEVER COMMIT)
+connectivity/
+data/
+initialConfigs/
+electron/
+config/
+configs/
+utils/
+scripts/
+mesh/
+resources/
+build-resources*/
+backup*/
+dist/
+build/
+
+# SECURITY & PROTOCOL FILES
+*security*
+*Security*
+*SECURITY*
+*settings*
+*Settings*
+*SETTINGS*
+*routing*
+*Routing*
+*ROUTING*
+*paths*
+*Paths*
+*PATHS*
+*api*
+*Api*
+*API*
+*network*
+*Network*
+*NETWORK*
+*protocol*
+*Protocol*
+*PROTOCOL*
+*password*
+*Password*
+*PASSWORD*
+*key*
+*Key*
+*KEY*
+*ip*
+*IP*
+*port*
+*Port*
+*PORT*
+
+# VPN PROTOCOL FILES
+*vless*
+*VLESS*
+*xray*
+*XRAY*
+*frpc*
+*FRPC*
+*tunnel*
+*Tunnel*
+*TUNNEL*
+*proxy*
+*Proxy*
+*PROXY*
+*vpn*
+*VPN*
+*stealth*
+*Stealth*
+*STEALTH*
+
+# CONFIGURATION & SETUP FILES
+config.js
+config.json
+*config*
+*Config*
+*CONFIG*
+setup*
+Setup*
+SETUP*
+initial*
+Initial*
+INITIAL*
+
+# CORE APPLICATION FILES (SENSITIVE)
+serverManager.js
+networkMonitor.js
+main.js
+electron-starter.js
+generate-*.js
+preload.js
+renderer.js
+functions.js
+adminHelper.js
+
+# ENCRYPTION & AUTHENTICATION
+*encrypt*
+*Encrypt*
+*ENCRYPT*
+*auth*
+*Auth*
+*AUTH*
+*token*
+*Token*
+*TOKEN*
+*cert*
+*Cert*
+*CERT*
+*fingerprint*
+*Fingerprint*
+*FINGERPRINT*
+
+# SENSITIVE SRC/ COMPONENTS (NEVER COMMIT)
+src/components/Security.js
+src/components/MeshNetwork.js
+src/components/ServiceControl.js
+src/components/Settings.js
+src/components/Speedtest.js
+src/components/SystemInfo.js
+src/components/ClientList.js
+src/components/ServerDashboard.js
+src/components/ServerHeader.js
+src/components/FirstTimeSetup.js
+
+# SENSITIVE SRC/ UTILITIES
+src/utils/
+src/hooks/useRedaction.js
+
+# SENSITIVE SRC/ COMMON COMPONENTS
+src/components/common/NetworkPerformance.js
+src/components/common/NetworkPerformanceCard.js
+src/components/common/ServiceConnectivityCard.js
+src/components/common/ClientSubscriptionCard.js
+src/components/common/SystemMetricsCard.js
+src/components/common/UptimeDisplay.js
+
+# Sensitive binaries and resources
+bin/
+resources/bin/
+initialConfigs/bin/
+*.key
+*.pem
+*.p12
+*.crt
+*.exe
+*.ps1
+*.vbs
+*.sh
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup directories
+backup/
+backup*/
+temp*/
+
+# Health and debug files
+health-debug.json
+*.debug
